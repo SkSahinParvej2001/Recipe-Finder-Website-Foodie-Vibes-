@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Vibes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <!-- Landing Page Section -->
+    <section class="landing-page">
+        <header class="header">
+            <div class="header-text-area">
+                <h1 class="header-text">
+                    Foodie Vibes 
+                    <img src="assets/master-chef.png" alt="chef">
+                </h1>
+            </div>
+            <div class="input-button-area">
+                <input type="text" placeholder="search your Dish" class="recipe-name">
+                <button class="btn">
+                    <img src="assets/search-engine.png" alt="search" class="img">
+                </button>
+            </div>
+        </header>
+        <!-- End of Header Section -->
+
+        <footer class="footer">
+            <h1 class="floating-text">
+                <span class="word">Welcome</span>
+                <span class="word">to</span>
+                <span class="word">your</span>
+                <span class="word">ultimate</span>
+                <span class="word">destination</span>
+                <span class="word">of</span>
+                <span class="word">Recipes</span>
+                <span class="word">around</span>
+                <span class="word">the</span>
+                <span class="word">world!!</span>
+            </h1>
+        </footer>
+    </section>
+    <!-- End of Landing Page Section -->
+
+    <!-- Not Found Page -->
+    <section class="not-found-page" style="display: none;">
+        <header class="search-and-back-button-area">
+            <section class="back-button-section">
+                <button class="back-btn">
+                    <img src="assets/back-button.png" alt="">
+                    <p>back</p>
+                </button>
+            </section>
+            <section class="search-area-section">
+                <input type="text" placeholder="search your Dish" class="search-name">
+                <button class="search-btn">
+                    <img src="assets/search-engine.png" alt="search-button" class="img">
+                </button>
+            </section>
+        </header>
+
+        <div class="error-back-ground">
+            <div class="error-picture-area">
+                <img src="assets/no-results.png" alt="page not found" class="not-found-image">
+                <h1 class="error-text">Sorry, the recipe is not available.</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End of Not Found Page -->
+
+    <!-- Get Your Recipe Section -->
+    <section class="recipes-page" style="display: none;">
+        <header class="search-and-back-button-area">
+            <section class="back-button-section">
+                <button class="recipe-back-btn">
+                    <img src="assets/back-button.png" alt="">
+                    <p>back</p>
+                </button>
+            </section>
+            <section class="search-area-section">
+                <input type="text" placeholder="search your Dish" class="recipe-search-name">
+                <button class="recipe-search-btn">
+                    <img src="assets/search-engine.png" alt="search" class="img">
+                </button>
+            </section>
+        </header>
+
+        <main class="all-recipe-area">
+            <!-- Recipe content will go here -->
+        </main>
+    </section>
+    <!-- End of Get Your Recipe Section -->
+
+    <!-- Recipe Shower Page -->
+    <section class="recipe-showing" style="display: none;">
+        <div class="recipe-showing-div">
+            <button class="back-button">Back</button>
+            <img src="" alt="" class="image-section">
+            <div class="ingredient-section">
+                <!-- Ingredient details will go here -->
+            </div>
+        </div>
+    </section>
+    <!-- End of Recipe Shower Page -->
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
